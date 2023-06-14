@@ -1,0 +1,10 @@
+.slider button {
+  border-radius: 10px;
+  border: 3px solid #94c66d;
+  width: 48%;
+  margin: 0 0.5rem;
+  margin-top: 0.4rem;
+}
+.slider button:hover {
+  border: 3px solid #849e70;
+}

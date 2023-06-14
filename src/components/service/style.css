@@ -1,0 +1,60 @@
+.service-card {
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  padding: 1rem;
+}
+.service-card p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #212121;
+}
+.service-card h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  margin-top: 1.5rem;
+}
+.service-card button {
+  border: 3px solid #c6efad;
+  background-color: #c6efad;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  padding: 10px 40px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition: all 0.5s ease;
+  margin-top: 70px;
+}
+button:hover {
+  border: 3px solid #94c66d;
+  background-color: #94c66d;
+}
+h1 {
+  margin-top: 7rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 63px;
+
+  color: #000000;
+}
+
+.even {
+  background-color: #efefef;
+}
+.center {
+  margin-top: 5rem;
+}

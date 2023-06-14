@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+#root {
+  min-height: 100vh !important;
+}
+.App {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+.btn {
+  border: 3px solid #94c66d !important;
+  border-radius: 5px !important;
+  width: auto !important;
+  height: auto !important;
+  text-transform: uppercase !important;
+  font-weight: 650 !important;
+  font-size: 22px !important;
+  padding: 10px 40px !important;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1)) !important;
+  transition: all 0.5s ease !important;
+}
+.btn:hover {
+  border: 3px solid #849e70 !important;
+}
+.short-info {
+  background: url("../img/image1.jpg");
+  width: 100%;
+  height: 100%;
+}
+.line {
+  border-bottom: 3px solid #81e072;
+  border-width: 50%;
+  padding-bottom: 10px;
+}
+.vertical-line {
+  border-right: 6px solid #81e072;
+  height: 30px;
+}
+.offer {
+  background-color: #efefef;
+  width: 100%;
+}
+.offer__card {
+  border-radius: 1em;
+  text-align: center;
+  padding: 0.5em;
+  border-color: gray;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.offer__card:focus {
+  outline: none;
+  border-color: darkgrey;
+}
+.offer__card:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.offer__card img {
+  border-radius: 70%;
+  width: auto;
+  margin: auto;
+}
+.offer__btn {
+  margin-top: 3.875rem !important;
+  margin-bottom: 0.1rem !important;
+}
+.advantages {
+  margin-top: 40px;
+}
+.advantages__card {
+  text-align: center;
+  padding: 0.5em;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+}
+.advantages__card img {
+  width: auto;
+  margin: auto;
+}
+.advantages__title {
+  margin-bottom: 50px;
+}
+.advantages__text {
+  margin-top: 40px;
+}
+.our-works .container {
+  background-color: #efefef;
+  border-radius: 30px;
+  padding: 2rem;
+  margin-bottom: 7rem;
+}
+
+body .container:not(.navbar .container):not(.footer .container) {
+  margin-bottom: 5rem;
+}
+
+/* contacts page */
+
+.contacts {
+  background-color: #efefef;
+  border-radius: 18px;
+}
+.contacts h2 {
+  margin: 2rem 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #313131;
+}
+.contacts li {
+  margin: 0.3rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.contacts p {
+  margin-top: 0.1rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.contacts ul {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.write-us {
+  background-color: #efefef;
+  border-radius: 18px;
+  padding: 0.5rem;
+}
+
+.write-us img {
+  width: auto;
+  height: auto;
+}
+.write-us .responsive-img {
+  max-width: 100%;
+  height: 89%;
+}
+
+@media (max-width: 767px) {
+  .write-us .responsive-img {
+    max-width: 80%;
+  }
+}
+
+.write-us h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 51px;
+  margin: 2rem 0;
+}
+
+.write-us input {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: left;
+  color: #827d7d;
+}
+.write-us .input-1 {
+  width: 40%;
+  margin-right: 4rem;
+  margin-bottom: 1rem;
+}
+.write-us .input-2 {
+  width: 40%;
+}
+.write-us .input-3 {
+  width: 88.9%;
+  height: 30%;
+}
+.write-us .input-3::placeholder {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.write-us button {
+  border: 3px solid #c6efad;
+  background-color: #c6efad;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  padding: 10px 40px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition: all 0.5s ease;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.write-us p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #656565;
+}
