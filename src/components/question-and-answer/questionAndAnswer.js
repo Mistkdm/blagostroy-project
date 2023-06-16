@@ -8,7 +8,7 @@ const QuestionAndAnswer = () => {
   return (
     <Container>
       <Row>
-        <Col md={6} className="d-flex">
+        <Col md={7} className="d-flex">
           <div className="qa-box h-100">
             <h2 className="text-center">Частые вопросы</h2>
             <DropdownContainer title={"Вы работаете в выходные и праздники?"}>
@@ -22,8 +22,8 @@ const QuestionAndAnswer = () => {
             </DropdownContainer>
           </div>
         </Col>
-        <Col md={2}></Col>
-        <Col md={4} sm={12} className="d-flex">
+        <Col md={1}></Col>
+        <Col md={4} sm={12} className="d-flex q-a-a">
           <div className="qa-box h-100">
             <h2 className="text-center">Оставьте заявку</h2>
             <p className="p1 text-center">

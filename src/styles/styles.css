@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-#root {
-  min-height: 100vh !important;
-}
 .App {
   font-family: "Montserrat", sans-serif;
-  min-height: 100vh !important;
-  display: flex !important;
-  flex-direction: column !important;
 }
+
+@media (min-width: 1025px) {
+  .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+}
+
 .btn {
   border: 3px solid #94c66d !important;
   border-radius: 5px !important;

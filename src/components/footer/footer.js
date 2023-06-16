@@ -2,10 +2,7 @@ import "./style.css";
 import Phone from "./../../img/phone-call 1.svg";
 import Email from "./../../img/Email svg.svg";
 import Location from "./../../img/Location svg.svg";
-import Vk from "./../../img/icons8-vk-в-круге 1.svg";
 import Instagram from "./../../img/instagram-svgrepo-com 1.svg";
-import Telegram from "./../../img/telegram-svgrepo-com 1.svg";
-import Facebook from "./../../img/facebook-logo-svgrepo-com 1.svg";
 import { Col, Row, Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 const Footer = () => {
@@ -50,14 +47,11 @@ const Footer = () => {
           </Col>
           <Col md={4}>
             <ul>
-              <li>Плитка</li>
               <li>
                 <NavLink to="/services" className="nav-link">
                   Услуги
                 </NavLink>
               </li>
-              <li>Галерея</li>
-              <li>Калькулятор</li>
               <li>
                 {" "}
                 <NavLink to="/contacts" className="nav-link">
@@ -69,16 +63,9 @@ const Footer = () => {
           <Col md={3} className="social">
             <ul className="social-icons">
               <li>
-                <img src={Vk} alt="Icon" className="icon" />
-              </li>
-              <li>
-                <img src={Instagram} alt="Icon" className="icon" />
-              </li>
-              <li>
-                <img src={Telegram} alt="Icon" className="icon" />
-              </li>
-              <li>
-                <img src={Facebook} alt="Icon" className="icon" />
+                <a href="https://www.instagram.com/blagostroy/">
+                  <img src={Instagram} alt="Icon" className="icon" />
+                </a>
               </li>
             </ul>
           </Col>

@@ -21,23 +21,11 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
           <ul className="navbar-nav offset-md-5 navbar-text">
-            <li className="nav-item">
-              <a className="nav-link" href="index.html">
-                Плитка
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Калькулятор
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Галерея
-              </a>
-            </li>
             <li className="nav-item">
               <NavLink to="/contacts" className="nav-link">
                 Контакты

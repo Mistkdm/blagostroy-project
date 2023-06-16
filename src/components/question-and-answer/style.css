@@ -21,13 +21,15 @@
   color: #656565;
   font-weight: 400;
 }
-input {
+.qa-box input {
   border-radius: 10px;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 30px;
   text-align: center;
+  height: auto;
+  width: auto;
 }
 input::placeholder {
   color: #999999;
@@ -52,4 +54,9 @@ input::placeholder {
   font-weight: 400;
   font-size: 11px;
   line-height: 117%;
+}
+@media (max-width: 768px) {
+  .q-a-a input {
+    max-width: 200px;
+  }
 }

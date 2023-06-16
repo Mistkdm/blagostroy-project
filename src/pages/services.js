@@ -7,7 +7,7 @@ const Servicec = () => {
       <div className="container text-center">
         <div className="row justify-content-center">
           <div className="col-12">
-            <h1>Предоставляемые нами услуги</h1>
+            <h1>Наши услуги</h1>
           </div>
         </div>
       </div>
